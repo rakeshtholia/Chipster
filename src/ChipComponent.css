@@ -1,0 +1,75 @@
+.chip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .chip {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+  }
+
+  .chipSelected {
+    background-color: #e90707;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .remove-icon {
+    margin-left: 8px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  input {
+    height: 40px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 0;
+  }
+
+  input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item-list li {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .item-list li:hover {
+    background-color: #f5f5f5;
+  }
+  
